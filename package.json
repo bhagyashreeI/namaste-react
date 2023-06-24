@@ -2,15 +2,16 @@
   "name": "namastereact",
   "version": "1.0.0",
   "description": "Study and explore react",
-  "main": "App.js",
   "scripts": {
-    "start": "parcel index.html",
-    "test": "jest"
+    "build": "parcel build index.html",
+    "test": "jest",
+    "start":"parcel index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bhagyashreeI/namaste-react.git"
   },
+  "keywords": [],
   "author": "Bhagyashree",
   "license": "ISC",
   "bugs": {
@@ -24,5 +25,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
